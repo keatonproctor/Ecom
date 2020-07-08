@@ -5,6 +5,7 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import { Router, Switch, Route } from 'react-router-dom';
 import reducers from "./reducers";
 import Account from './components/account/account';
+import Shop from './components/shop/shop';
 
 const createStoreWithMiddleware = applyMiddleware()(compose((window.devToolsExtension ? window.devToolsExtension() : f => f)(createStore)));
 
@@ -27,6 +28,8 @@ function main() {
               <Route path='/signup' exact component={Signup}/>
 
               <Route path='/account' exact component={Account}/>
+              
+              <Route path='/shop' exact component={Shop}/>
             </Switch>
           </Layout>
         </Router>
