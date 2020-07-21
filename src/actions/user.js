@@ -88,8 +88,8 @@ export function fetchUserPurchases() {
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
                 user: {
-                    name: 'Maxwell Nelson',
-                    shippingAddress: '1337 West State Street'
+                    name: 'Keaton Proctor',
+                    shippingAddress: '1234 Mountain Street'
                 }
             },
             {
