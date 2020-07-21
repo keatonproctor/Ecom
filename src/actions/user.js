@@ -12,8 +12,8 @@ export function signIn({email, password}) {
         payload: {
             user: {
                 _id: 0,
-                name: 'Max Nelson',
-                address: '1234 I live here',
+                name: 'Keaton Proctor',
+                address: '1234 Mountain Street',
                 cartProducts: []
             }
         }
@@ -110,8 +110,8 @@ export function fetchUserPurchases() {
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
                 user: {
-                    name: 'Max Asher Nelson',
-                    shippingAddress: '1234 West State Street'
+                    name: 'Keaton Proctor',
+                    shippingAddress: '1234 Mountain Street'
                 }
             },
             {
